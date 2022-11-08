@@ -269,7 +269,7 @@ ul.todo#completed:after {
     color: #aaa;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 640px) {
     header {
         left: 0;
         right: 0;
@@ -277,18 +277,23 @@ ul.todo#completed:after {
     }
 
     header input {
-        width: 315px;
+        width: 330px;
     }
 
     ul.todo {
         width: 370px;
         margin-left: -190px;
         position: relative;
+        margin: unset;
+        padding: unset ;
+    }
 
+    ul.todo li {
+        left: 0%;
     }
 
     ul.todo#completed {
-        width: 362px;
-        left: 2%;
+        width: 370px;
+        left: -9%;
     }
 }
