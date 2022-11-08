@@ -21,7 +21,7 @@ header {
     position: fixed;
     padding: 15px;
     top: 0;
-    left: 35%;
+    left: 36%;
     z-index: 5;
 
     background: #25b99a;
@@ -112,21 +112,21 @@ header button svg .fill {
 
 ul.todo {
     width: 21rem;
-    margin-left: 25rem;
+    margin-left: auto;
+    margin-right: auto;
     list-style-type: none;
     overflow-y: auto;
     position: relative;
     overflow-x: hidden;
-    height: max-content;
+    padding: unset;
 }
 
 ul.todo li {
-    left: -2%;
+    left: 0%;
     font-size: 14px;
     font-weight: 500;
     color: #444;
     line-height: 22px;
-
     background: #fff;
     border-radius: 5px;
     position: relative;
@@ -231,11 +231,10 @@ ul.todo li .buttons button.complete svg .fill {
 
 ul.todo#completed {
     position: relative;
-    padding: 60px 0 0 38px;
+    padding: 60px 0 0 0;
     width: 337px;
     overflow-y: auto;
     overflow-x: hidden;
-    height: max-content;
 }
 
 ul.todo#completed:before {
