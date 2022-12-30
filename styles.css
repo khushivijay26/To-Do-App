@@ -16,7 +16,7 @@ button {
 }
 
 header {
-    width: 390px;
+    width: 350px;
     height: 60px;
     position: fixed;
     padding: 15px;
@@ -31,7 +31,7 @@ header {
 }
 
 header input {
-    width: 320px;
+    width: 280px;
     height: 50px;
     float: left;
     color: #fff;
@@ -262,7 +262,7 @@ ul.todo#completed:after {
     color: #aaa;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 640px) {
     header {
         left: 0;
         right: 0;
@@ -270,7 +270,7 @@ ul.todo#completed:after {
     }
 
     header input {
-        width: 315px;
+        width: 378px;
     }
 
     ul.todo {
